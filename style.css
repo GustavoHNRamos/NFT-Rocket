@@ -1,0 +1,276 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,500;0,700;1,400&display=swap");
+
+:root {
+  --body-background: #0e0e0e;
+  --color-logo: #ff5b50;
+  --card-color: #252525;
+  --text-color: #fff;
+  --subtitle-color: #5a5757;
+  --black-text: #000;
+  --color-input: #0d0d0d;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  color: #fff;
+  font-family: "Montserrat", sans-serif;
+}
+
+/* h2 {
+  font-weight: normal;
+} */
+
+.bg {
+  background-image: url("/assets/background.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+}
+
+/* Navbar Section */
+.nav {
+  display: flex;
+  flex-direction: row;
+  padding: 3.29em 3.29em 3.29em 4.5em;
+  flex: 100%;
+}
+
+.nav-heading {
+  font-size: 2em;
+}
+
+.nav-heading span {
+  color: var(--color-logo);
+}
+
+.menu-nav {
+  margin: 0 auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.menu-description {
+  margin: 0 4em 0 0;
+  font-weight: 400;
+  font-size: 0.99em;
+}
+
+.btn {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border: none;
+  border-radius: 4px;
+  outline: none;
+  padding: 0.5em;
+  background: #fff;
+  cursor: pointer;
+}
+
+.btn p {
+  color: var(--black-text);
+  margin-left: 0.5em;
+  font-size: 1.1em;
+  font-weight: bold;
+}
+
+/* Hero section */
+.hero {
+  margin-top: 2em;
+  padding-left: 4.5em;
+}
+
+.hero-container {
+  display: flex;
+  flex-direction: row;
+  /* grid-template-columns: 1fr 2fr auto; */
+}
+
+.hero-description {
+  width: 32%;
+  margin-right: 3em;
+  text-align: left;
+  font-size: 1.1em;
+}
+
+.hero-description--p {
+  font-size: 0.9em;
+}
+
+.hero-img {
+  margin-top: 3.2em;
+  display: flex;
+}
+
+.hero-img--img {
+  object-fit: contain;
+  width: 52%;
+}
+
+.hero-img--p {
+  display: flex;
+  flex-direction: column;
+  margin: 3.69em 0 0 0.5em;
+  font-size: 0.68em;
+}
+
+.hero-h2 {
+  font-size: 1.9em;
+  margin-top: -0.2em;
+}
+
+.hero-h2 span {
+  color: var(--color-logo);
+}
+
+.hero-img-2 {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-right: 3.29em;
+}
+
+/* Gallery Section */
+.gallery {
+  margin-top: 3em;
+}
+
+.gallery-content {
+  display: grid;
+  grid-template-columns: auto auto auto auto;
+  margin-right: 3.29em;
+}
+
+.img-gallery {
+  width: 95%;
+  border: 1px solid #fff;
+}
+
+.img-gallery:nth-child(1),
+.img-gallery:nth-child(2),
+.img-gallery:nth-child(3),
+.img-gallery:nth-child(4) {
+  margin-bottom: 2em;
+}
+
+/* Stats Section */
+.stats {
+  background-color: var(--body-background);
+  padding-left: 4.5em;
+  border-bottom: 2px solid var(--subtitle-color);
+}
+
+.stats-container {
+  display: grid;
+  grid-template-columns: auto auto;
+}
+
+.stats-aside {
+  font-size: 1.8em;
+  padding: 1.5em 2em 0 0;
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  border-right: 2px solid var(--subtitle-color);
+}
+
+.stats-h2 {
+  margin-top: 1.3em;
+  font-weight: normal;
+}
+
+.stats-aside p {
+  font-size: 0.69em;
+  color: var(--subtitle-color);
+}
+
+.stats-description {
+  display: grid;
+  grid-template-columns: auto auto;
+  padding: 3em 0 0 3em;
+}
+
+.stats-description span {
+  color: var(--color-logo);
+}
+
+.stats-p {
+  text-align: left;
+  font-size: 0.99em;
+}
+
+.stats-content2 {
+  width: 60%;
+}
+
+.stats-content2 p {
+  margin-bottom: 4em;
+}
+
+.banner {
+  margin: 4em 0 -5px 0;
+}
+
+.banner img {
+  width: 99.99%;
+}
+
+/* Trending Section */
+.trending {
+  background: var(--body-background);
+  padding: 7.5em 0 0 4.5em;
+}
+
+.week-trending {
+  font-size: 2.8em;
+  margin-bottom: 3em;
+  font-weight: bold;
+}
+
+.week-trending span {
+  color: var(--color-logo);
+}
+
+.trending-container {
+  display: grid;
+  grid-template-columns: auto auto;
+  /* grid-template-rows: auto auto; */
+  justify-content: space-between;
+}
+
+.astr-2,
+.astr-4 {
+  margin-right: 3.29em;
+}
+
+.astr-3,
+.astr-4 {
+  margin-top: 4em;
+}
+.trending-content--heading1 {
+  display: flex;
+  justify-content: space-between;
+}
+
+.trending-content--heading1 h2 {
+  font-weight: normal;
+  font-size: 1.8em;
+}
+
+.trending-content--heading2 {
+  margin-top: 1.8em;
+  font-size: 1.1em;
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 1.4em;
+}
+
+.trending-content--heading2 p {
+  color: var(--subtitle-color);
+}
+
+.trending-content--heading2 .trending-coin {
+  color: var(--color-logo);
+}

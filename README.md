@@ -14,7 +14,7 @@ This is my solution to the [Rocket NFts](https://app.rocketseat.com.br/discover/
 
 ### Links
 
-- Live Site URL: [GitHub Page]()
+- Live Site URL: [Vercel](https://nft-rocket.vercel.app/)
 
 ## My process
 
